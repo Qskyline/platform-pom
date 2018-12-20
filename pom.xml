@@ -26,19 +26,6 @@
         <skipTests>true</skipTests>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>my-maven-repo</id>
-            <url>http://172.20.178.39:8081/repository/maven-releases/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
