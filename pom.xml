@@ -28,7 +28,7 @@
 
     <repositories>
         <repository>
-            <id>maven-kingdee</id>
+            <id>my-maven-repo</id>
             <url>http://172.20.178.39:8081/repository/maven-releases/</url>
             <releases>
                 <enabled>true</enabled>
