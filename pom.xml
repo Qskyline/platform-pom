@@ -12,6 +12,20 @@
     <name>com.skyline.platform.pom</name>
     <description>common pom</description>
 
+    <!-- private repo conf -->
+    <!--<repositories>
+        <repository>
+            <id>my-maven-repo</id>
+            <url>http://172.20.178.39:8081/repository/maven-releases/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>-->
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -150,7 +164,8 @@
                     </plugin>
                 </plugins>
             </build>
-            <distributionManagement>
+            <!-- private repo uploading setting -->
+            <!--<distributionManagement>
                 <snapshotRepository>
                     <id>my_nexus</id>
                     <url>http://172.20.178.39:8081/repository/maven-snapshots/</url>
@@ -159,7 +174,7 @@
                     <id>my_nexus</id>
                     <url>http://172.20.178.39:8081/repository/maven-releases/</url>
                 </repository>
-            </distributionManagement>
+            </distributionManagement>-->
         </profile>
     </profiles>
 </project>
